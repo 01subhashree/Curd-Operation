@@ -1,12 +1,9 @@
-import UserList from "./Components/userList/UserList";
-import { UserProvider } from "./Components/UserProvider";
+import Display from "./component/Display";
 
 function App() {
   return (
     <>
-      <UserProvider>
-        <UserList />
-      </UserProvider>
+      <Display />
     </>
   );
 }
